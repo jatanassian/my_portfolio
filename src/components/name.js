@@ -5,9 +5,8 @@ const Name = () => (
       style={{
         margin: `0 auto`,
         height: '100vh',
-        maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
-        border: 'solid 1px red'
+        border: 'solid 1px red',
       }}
     >
       <h1 style={{ margin: 0, fontSize: '4rem' }}>
