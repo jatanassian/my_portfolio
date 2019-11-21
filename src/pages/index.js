@@ -1,7 +1,9 @@
 import React, { Fragment } from "react"
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 import Name from "../components/name"
 import About from "../components/about"
+import Project from "../components/project"
 import SEO from "../components/seo"
 
 const projects = [
@@ -54,6 +56,10 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Name/>
     <About />
+    <h3>Featured projects:</h3>
+    {projects.map(project => {
+      return <Project />
+    })}
     <footer>
       © {new Date().getFullYear()}, Built with
       {` `}
