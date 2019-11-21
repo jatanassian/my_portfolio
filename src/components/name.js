@@ -16,6 +16,8 @@ const Name = () => (
       <a href='https://github.com/jatanassian' rel="noopener noreferrer" target="_blank">GitHub</a>
       <br />
       <a href='https://www.linkedin.com/in/julien-atanassian/' rel="noopener noreferrer" target="_blank">LinkedIn</a>
+      <br />
+      <a href="mailto:julien.atanassian@gmail.com">julien.atanassian@gmail.com</a>
     </div>
 )
 
