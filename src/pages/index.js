@@ -63,16 +63,18 @@ const IndexPage = () => (
     <Name/>
     <About />
     <h3>Featured projects:</h3>
-    {projects.map(project => {
-      return <Project 
-        key = {project.key}
-        name = {project.name}
-        description = {project.description}
-        tech = {project.tech}
-        github = {project.github}
-        image = {project.image}
-      />
-    })}
+    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around', alignItems: 'flex-start'}}>
+      {projects.map(project => {
+        return <Project 
+          key = {project.key}
+          name = {project.name}
+          description = {project.description}
+          tech = {project.tech}
+          github = {project.github}
+          image = {project.image}
+        />
+      })}
+    </div>
     <footer>
       © {new Date().getFullYear()}, Built with
       {` `}
