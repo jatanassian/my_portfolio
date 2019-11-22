@@ -6,7 +6,6 @@ const Name = () => (
         margin: `0 auto`,
         height: '100vh',
         padding: `1.45rem 5rem`,
-        border: 'solid 1px red',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center'
