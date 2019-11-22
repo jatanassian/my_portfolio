@@ -5,11 +5,12 @@ const About = () => (
       style={{
         margin: `0 auto`,
         padding: `1.45rem 1.0875rem`,
-        border: 'solid 1px blue'
+        borderTop: 'solid 1px #000080',
+        borderBottom: 'solid 1px #000080'
       }}
     >
       <h3>About me</h3>
-      <p>Hi, I'm a full stack web developer with a background in marketing based in Ottawa.</p>
+      <p>Hi, I'm a full stack web developer with a background in marketing based in Ottawa and looking for opportunities.</p>
       <div style={{display: 'flex', flexWrap: 'wrap'}}>
         <ul style={{listStyle: 'none', marginRight: '1.5rem', lineHeight: '.5rem'}}>
           <li style={{ fontSize: '.85rem' }}><strong>Languages:</strong></li>
