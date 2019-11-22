@@ -10,33 +10,33 @@ const About = () => (
     >
       <h3>About me</h3>
       <p>Hi, I'm a full stack web developer with a background in marketing based in Ottawa.</p>
-      <div style={{display: 'flex'}}>
-        <ul style={{listStyle: 'none'}}>
-          <li>Languages:</li>
-          <li>HTML5 & CSS3</li>
-          <li>JavaScript</li>
-          <li>Ruby</li>
+      <div style={{display: 'flex', flexWrap: 'wrap'}}>
+        <ul style={{listStyle: 'none', marginRight: '1.5rem', lineHeight: '.5rem'}}>
+          <li style={{ fontSize: '.85rem' }}><strong>Languages:</strong></li>
+          <li style={{ fontSize: '.7rem' }}>HTML5 & CSS3</li>
+          <li style={{ fontSize: '.7rem' }}>JavaScript</li>
+          <li style={{ fontSize: '.7rem' }}>Ruby</li>
         </ul>
-        <ul style={{listStyle: 'none'}}>
-          <li>Frameworks & Libraries:</li>
-          <li>Node.js</li>
-          <li>Express</li>
-          <li>React.js</li>
-          <li>Ruby on Rails</li>
-          <li>jQuery</li>
+        <ul style={{listStyle: 'none', marginRight: '1.5rem', lineHeight: '.5rem'}}>
+          <li style={{ fontSize: '.85rem' }}><strong>Frameworks & Libraries:</strong></li>
+          <li style={{ fontSize: '.75rem' }}>Node.js</li>
+          <li style={{ fontSize: '.75rem' }}>Express</li>
+          <li style={{ fontSize: '.75rem' }}>React.js</li>
+          <li style={{ fontSize: '.75rem' }}>Ruby on Rails</li>
+          <li style={{ fontSize: '.75rem' }}>jQuery</li>
         </ul>
-        <ul style={{listStyle: 'none'}}>
-          <li>Databases & Systems:</li>
-          <li>SQL</li>
-          <li>PostgreSQL</li>
-          <li>Git</li>
+        <ul style={{listStyle: 'none', marginRight: '1.5rem', lineHeight: '.5rem'}}>
+          <li style={{ fontSize: '.85rem' }}><strong>Databases & Systems:</strong></li>
+          <li style={{ fontSize: '.75rem' }}>SQL</li>
+          <li style={{ fontSize: '.75rem' }}>PostgreSQL</li>
+          <li style={{ fontSize: '.75rem' }}>Git</li>
         </ul>
-        <ul style={{listStyle: 'none'}}>
-          <li>Testing frameworks:</li>
-          <li>Mocha & Chai</li>
-          <li>Jest</li>
-          <li>Cypress</li>
-          <li>Capybara</li>
+        <ul style={{listStyle: 'none', lineHeight: '.5rem'}}>
+          <li style={{ fontSize: '.85rem' }}><strong>Testing frameworks:</strong></li>
+          <li style={{ fontSize: '.75rem' }}>Mocha & Chai</li>
+          <li style={{ fontSize: '.75rem' }}>Jest</li>
+          <li style={{ fontSize: '.75rem' }}>Cypress</li>
+          <li style={{ fontSize: '.75rem' }}>Capybara</li>
         </ul>
       </div>
     </div>
