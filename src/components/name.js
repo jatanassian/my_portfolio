@@ -10,14 +10,12 @@ const Name = () => (
       }}
     >
       <h1 style={{ margin: 0, fontSize: '4rem', color: '#000080' }}>
-        Julien Atanassian
+        <strong>Julien Atanassian</strong>
       </h1>
       <h3 style={{ color: '#000080' }}>Full Stack Web Developer</h3>
-      <a href='https://github.com/jatanassian' rel="noopener noreferrer" target="_blank"><img src={require('../images/github-logo.svg')} alt='GitHub' style={{ width: '1.8rem', height: 'auto' }}/></a>
-      <br />
-      <a href='https://www.linkedin.com/in/julien-atanassian/' rel="noopener noreferrer" target="_blank">LinkedIn</a>
-      <br />
-      <a href="mailto:julien.atanassian@gmail.com">julien.atanassian@gmail.com</a>
+      <a href='https://github.com/jatanassian' rel="noopener noreferrer" target="_blank"><img src={require('../images/github-logo.svg')} alt='GitHub' style={{ width: '1.8rem', height: 'auto', marginRight: '.8rem' }}/></a>
+      <a href='https://www.linkedin.com/in/julien-atanassian/' rel="noopener noreferrer" target="_blank"><img src={require('../images/linkedin-logo.svg')} alt='LinkedIn' style={{ width: '1.8rem', height: 'auto', marginRight: '.8rem' }}/></a>
+      <a href="mailto:julien.atanassian@gmail.com"><img src={require('../images/email-logo.svg')} alt='julien.atanassian@gmail.com' style={{ width: '1.8rem', height: 'auto', marginTop: '8px' }}/></a>
     </div>
 )
 
