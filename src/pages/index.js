@@ -1,4 +1,4 @@
-import React, { Fragment } from "react"
+import React from "react"
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import Name from "../components/name"
@@ -58,12 +58,12 @@ const projects = [
 ]
 
 const IndexPage = () => (
-  <Fragment>
+  <div style={{ padding: '0 3rem' }}>
     <SEO title="Home" />
     <Name/>
     <About />
-    <h3>Featured projects:</h3>
-    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around', alignItems: 'flex-start'}}>
+    <h3 style={{ margin: '0 auto', padding: `1.45rem 1.0875rem 0 1.0875rem` }}>Featured projects:</h3>
+    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around', alignItems: 'flex-start', margin: `0 auto`, padding: `1.45rem 0` }}>
       {projects.map(project => {
         return <Project 
           key = {project.key}
@@ -80,7 +80,7 @@ const IndexPage = () => (
       {` `}
       <a href="https://www.gatsbyjs.org">Gatsby</a>
     </footer>
-  </Fragment>
+  </div>
 )
 
 export default IndexPage
