@@ -75,10 +75,10 @@ const IndexPage = () => (
         />
       })}
     </div>
-    <footer>
-      © {new Date().getFullYear()}, Built with
+    <footer style={{ textAlign: 'center', fontSize: '.75rem' }}>
+      © {new Date().getFullYear()}, Julien Atanassian. Built with
       {` `}
-      <a href="https://www.gatsbyjs.org">Gatsby</a>
+      <a style={{ color: 'inherit', textDecoration: 'none' }} href="https://www.gatsbyjs.org"><u>Gatsby</u></a>
     </footer>
   </div>
 )
