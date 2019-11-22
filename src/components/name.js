@@ -9,11 +9,11 @@ const Name = () => (
         border: 'solid 1px red',
       }}
     >
-      <h1 style={{ margin: 0, fontSize: '4rem' }}>
+      <h1 style={{ margin: 0, fontSize: '4rem', color: '#000080' }}>
         Julien Atanassian
       </h1>
-      <h3>Full Stack Web Developer</h3>
-      <a href='https://github.com/jatanassian' rel="noopener noreferrer" target="_blank">GitHub</a>
+      <h3 style={{ color: '#000080' }}>Full Stack Web Developer</h3>
+      <a href='https://github.com/jatanassian' rel="noopener noreferrer" target="_blank"><img src={require('../images/github-logo.svg')} alt='GitHub' style={{ width: '1.8rem', height: 'auto' }}/></a>
       <br />
       <a href='https://www.linkedin.com/in/julien-atanassian/' rel="noopener noreferrer" target="_blank">LinkedIn</a>
       <br />
