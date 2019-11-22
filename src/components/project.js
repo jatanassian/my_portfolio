@@ -5,11 +5,11 @@ const Project = (props) => {
   const { name, description, tech, github, image } = props
   
   return (
-    <Card style={{ width: '25rem', height: '25rem' }}>
+    <Card style={{ width: '25rem' }}>
       <Card.Img variant="top" src={image} />
       <Card.Body>
         <Card.Title>{name}</Card.Title>
-        <Card.Text>{description}</Card.Text>
+        <Card.Text>{description} <br />Made with {tech}</Card.Text>
         <Button variant="outline-secondary"><a href={github} rel="noopener noreferrer" target="_blank">GitHub Repo</a></Button>
       </Card.Body>
     </Card>
