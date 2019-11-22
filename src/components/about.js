@@ -18,12 +18,12 @@ const About = () => (
           <li>Ruby</li>
         </ul>
         <ul style={{listStyle: 'none'}}>
-          <li>Frameworks & Librairies:</li>
+          <li>Frameworks & Libraries:</li>
           <li>Node.js</li>
           <li>Express</li>
           <li>React.js</li>
-          <li>jQuery</li>
           <li>Ruby on Rails</li>
+          <li>jQuery</li>
         </ul>
         <ul style={{listStyle: 'none'}}>
           <li>Databases & Systems:</li>
