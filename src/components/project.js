@@ -10,7 +10,7 @@ const Project = (props) => {
       <Card.Body>
         <Card.Title>{name}</Card.Title>
         <Card.Text>{description} <br />Made with {tech}</Card.Text>
-        <Button variant="outline-secondary"><a href={github} rel="noopener noreferrer" target="_blank">GitHub Repo</a></Button>
+        <Button variant="outline-secondary"><a style={{ textDecoration: 'none' }} href={github} rel="noopener noreferrer" target="_blank">GitHub Repo</a></Button>
       </Card.Body>
     </Card>
   )
