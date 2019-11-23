@@ -2,6 +2,7 @@ import React from "react"
 
 const About = () => (
     <div
+      id='about'
       style={{
         margin: `0 auto`,
         padding: `1.45rem 1.0875rem`,
