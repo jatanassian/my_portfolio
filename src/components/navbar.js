@@ -2,7 +2,6 @@ import React from "react"
 
 const Navbar = () => (
     <div
-      id='about'
       style={{
         padding: '.3rem 0',
         width: '100%',
