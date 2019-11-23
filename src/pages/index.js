@@ -1,6 +1,7 @@
 import React from "react"
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+import Navbar from "../components/navbar"
 import Name from "../components/name"
 import About from "../components/about"
 import Project from "../components/project"
@@ -58,8 +59,10 @@ const projects = [
 ]
 
 const IndexPage = () => (
+  <div>
+    <Navbar/>
   <div style={{ padding: '0 3rem' }}>
-    <SEO title="Home" />
+    <SEO title="Julien Atanassian Portfolio" />
     <Name/>
     <About/>
     <h3 style={{ margin: '0 auto', padding: `1.45rem 1.0875rem 0 1.0875rem` }} id='portfolio'>Featured projects:</h3>
@@ -80,6 +83,7 @@ const IndexPage = () => (
       {` `}
       <a style={{ color: 'inherit', textDecoration: 'none' }} href="https://www.gatsbyjs.org"><u>Gatsby</u></a>
     </footer>
+  </div>
   </div>
 )
 
