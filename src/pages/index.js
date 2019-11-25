@@ -59,31 +59,31 @@ const projects = [
 ]
 
 const IndexPage = () => (
-  <div>
+  <div style={{backgroundColor: '#ffffff', backgroundImage: 'url("https://www.transparenttextures.com/patterns/asfalt-dark.png")' }}>
     <Navbar/>
-  <div style={{ padding: '0 3rem' }}>
-    <SEO title="Julien Atanassian Portfolio" />
-    <Name/>
-    <About/>
-    <h3 style={{ margin: '0 auto', padding: `1.45rem 1.0875rem 0 1.0875rem` }} id='portfolio'>Featured projects:</h3>
-    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around', alignItems: 'flex-start', margin: `0 auto`, padding: `1.45rem 0` }}>
-      {projects.map(project => {
-        return <Project 
-          key = {project.key}
-          name = {project.name}
-          description = {project.description}
-          tech = {project.tech}
-          github = {project.github}
-          image = {project.image}
-        />
-      })}
+    <div style={{ padding: '0 3rem' }}>
+      <SEO title="Julien Atanassian Portfolio" />
+      <Name/>
+      <About/>
+      <h3 style={{ margin: '0 auto', padding: `1.45rem 1.0875rem 0 1.0875rem` }} id='portfolio'>Featured projects:</h3>
+      <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around', alignItems: 'flex-start', margin: `0 auto`, padding: `1.45rem 0` }}>
+        {projects.map(project => {
+          return <Project 
+            key = {project.key}
+            name = {project.name}
+            description = {project.description}
+            tech = {project.tech}
+            github = {project.github}
+            image = {project.image}
+          />
+        })}
+      </div>
+      <footer style={{ textAlign: 'center', fontSize: '.75rem' }}>
+        © {new Date().getFullYear()}, Julien Atanassian. Built with
+        {` `}
+        <a style={{ color: 'inherit', textDecoration: 'none' }} href="https://www.gatsbyjs.org"><u>Gatsby</u></a>
+      </footer>
     </div>
-    <footer style={{ textAlign: 'center', fontSize: '.75rem' }}>
-      © {new Date().getFullYear()}, Julien Atanassian. Built with
-      {` `}
-      <a style={{ color: 'inherit', textDecoration: 'none' }} href="https://www.gatsbyjs.org"><u>Gatsby</u></a>
-    </footer>
-  </div>
   </div>
 )
 
