@@ -9,7 +9,8 @@ const Navbar = () => (
         position: 'fixed',
         display: 'flex',
         justifyContent: 'space-around',
-        backgroundColor: 'white'
+        backgroundColor: '#000080',
+        color: "#fff"
       }}
     >
       <a href='#about' style={{ color: 'inherit', textDecoration: 'none', fontSize: '.9rem' }}>About</a>
