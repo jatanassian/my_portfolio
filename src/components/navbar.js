@@ -12,7 +12,6 @@ const Navbar = () => (
         backgroundColor: '#000080',
         color: "#fff",
         fontFamily: 'Roboto Slab, serif', 
-        fontWeight: '600'
       }}
     >
       <a href='#about' style={{ color: 'inherit', textDecoration: 'none', fontSize: '.9rem' }}>About</a>
