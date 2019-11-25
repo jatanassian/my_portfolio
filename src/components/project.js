@@ -5,7 +5,7 @@ const Project = (props) => {
   const { name, description, tech, github, image } = props
   
   return (
-    <Card style={{ width: '22rem', margin: '0 1rem 2rem 1rem', fontSize: '.8rem' }}>
+    <Card style={{ width: '22rem', margin: '0 1rem 2rem 1rem', fontSize: '.8rem', boxShadow: '.1rem .1rem .2rem grey' }}>
       <Card.Img style={{ marginBottom: '0' }}variant="top" src={image} />
       <Card.Body style= {{ padding: '.5rem 1rem' }}>
         <Card.Title style={{fontSize: '1rem', marginBottom: '.4rem' }}>{name}</Card.Title>
