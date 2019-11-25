@@ -7,6 +7,8 @@ import About from "../components/about"
 import Project from "../components/project"
 import SEO from "../components/seo"
 
+import '../components/styles.css'
+
 const projects = [
   {
     key: 1,
