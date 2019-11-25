@@ -13,7 +13,9 @@ const About = () => (
       }}
     >
       <h3 style={{ fontFamily: 'Roboto Slab, serif', fontWeight: '600' }}>About me</h3>
-      <p>Hi, I'm a full stack web developer with a background in marketing based in Ottawa and looking for opportunities.</p>
+      <p>Hi, I'm a <span style={{ borderBottom: 'solid 1px #c80b72', color: '#c80b72' }}>full stack web developer</span> with a background in marketing based in Ottawa.</p>
+      <p>I enjoy the never ending learning journey that is web development. I also like solving problems and being part of a community. Member of <a style={{ textDecoration: 'none', borderBottom: 'solid 1px #c80b72', color: '#c80b72' }} href="https://www.meetup.com/Ottawa-JavaScript/">Ottawa JavaScript</a>, <a style={{ textDecoration: 'none', borderBottom: 'solid 1px #c80b72', color: '#c80b72' }} href="https://www.meetup.com/ottawacodes/">Ottawa Codes</a>, <a style={{ textDecoration: 'none', borderBottom: 'solid 1px #c80b72', color: '#c80b72' }} href="https://www.meetup.com/OttawaRuby/">Ottawa Ruby</a> & <a style={{ textDecoration: 'none', borderBottom: 'solid 1px #c80b72', color: '#c80b72' }} href="https://www.meetup.com/Ottawa-ReactJS-Meetup/">React Ottawa</a>.</p>
+      <p>I you want to contact me, send me an email at <a style={{ textDecoration: 'none', borderBottom: 'solid 1px #c80b72', color: '#c80b72' }} href="mailto:julien.atanassian@gmail.com">julien.atanassian@gmail.com</a></p>
       <div style={{display: 'flex', flexWrap: 'wrap'}}>
         <ul style={{listStyle: 'none', marginRight: '1.5rem', lineHeight: '.5rem'}}>
           <li style={{ fontSize: '.85rem' }}><strong>Languages:</strong></li>
