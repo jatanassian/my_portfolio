@@ -10,7 +10,9 @@ const Navbar = () => (
         display: 'flex',
         justifyContent: 'space-around',
         backgroundColor: '#000080',
-        color: "#fff"
+        color: "#fff",
+        fontFamily: 'Roboto Slab, serif', 
+        fontWeight: '600'
       }}
     >
       <a href='#about' style={{ color: 'inherit', textDecoration: 'none', fontSize: '.9rem' }}>About</a>

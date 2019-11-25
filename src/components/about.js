@@ -7,10 +7,12 @@ const About = () => (
         margin: `0 auto`,
         padding: `1.45rem 1.0875rem`,
         borderTop: 'solid 1px #000080',
-        borderBottom: 'solid 1px #000080'
+        borderBottom: 'solid 1px #000080',
+        fontFamily: 'Open Sans, sans-serif',
+        fontWeight: '600'
       }}
     >
-      <h3>About me</h3>
+      <h3 style={{ fontFamily: 'Roboto Slab, serif', fontWeight: '600' }}>About me</h3>
       <p>Hi, I'm a full stack web developer with a background in marketing based in Ottawa and looking for opportunities.</p>
       <div style={{display: 'flex', flexWrap: 'wrap'}}>
         <ul style={{listStyle: 'none', marginRight: '1.5rem', lineHeight: '.5rem'}}>

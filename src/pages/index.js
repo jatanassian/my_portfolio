@@ -65,7 +65,7 @@ const IndexPage = () => (
       <SEO title="Julien Atanassian Portfolio" />
       <Name/>
       <About/>
-      <h3 style={{ margin: '0 auto', padding: `1.45rem 1.0875rem 0 1.0875rem` }} id='portfolio'>Featured projects:</h3>
+      <h3 style={{ margin: '0 auto', padding: `1.45rem 1.0875rem 0 1.0875rem`, fontFamily: 'Roboto Slab, serif', fontWeight: '600' }} id='portfolio'>Featured projects:</h3>
       <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around', alignItems: 'flex-start', margin: `0 auto`, padding: `1.45rem 0` }}>
         {projects.map(project => {
           return <Project 
