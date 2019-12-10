@@ -1,8 +1,8 @@
-import React from "react"
+import React, { Fragment } from "react"
 import { Card } from 'react-bootstrap'
 
 const Project = (props) => {
-  const { name, description, tech, github, image } = props
+  const { name, description, tech, github, url, image } = props
   
   return (
     <Card style={{ width: '22rem', margin: '0 1rem 2rem 1rem', fontSize: '.8rem', boxShadow: '.1rem .1rem .2rem grey' }}>
@@ -13,6 +13,7 @@ const Project = (props) => {
         <a style={{ color: 'inherit', textDecoration: 'none', fontSize: '.8rem' }} href={github} rel="noopener noreferrer" target="_blank">
           <img src={require('../images/github-logo2.png')} alt='GitHub' style={{ width: '1rem', height: 'auto', margin: '0 .2rem .3rem 0' }}/> <u>GitHub Repo</u>
         </a>
+        {url ? <Fragment><br /><a style={{ color: 'inherit', textDecoration: 'none', fontSize: '.8rem' }} href={url} rel="noopener noreferrer" target="_blank"><img src={require('../images/live.png')} alt='GitHub' style={{ width: '1.6rem', height: 'auto', margin: '0 .2rem .3rem 0' }}/> <u>See website</u></a></Fragment> : null}
       </Card.Body>
     </Card>
   )
