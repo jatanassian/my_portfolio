@@ -82,6 +82,7 @@ const IndexPage = () => (
             description = {project.description}
             tech = {project.tech}
             github = {project.github}
+            url = {project.url}
             image = {project.image}
           />
         })}
