@@ -16,6 +16,7 @@ const projects = [
     description: "A travel planner which suggests random cities, the main activities and the estimated cost for accommodation, transport and daily life. Once a city is added to the trip it suggests you a new city to explore around the previous one.",
     tech: "React.js, Node.js, Express, Axios, PostgreSQL, knex.js, Google Maps API, Nodemailer, SASS/SCSS, React Bootstrap, Json Web Token",
     github: "https://github.com/jatanassian/Nomad",
+    url: null,
     image: require("../images/nomad.png")
   },
   {
@@ -24,6 +25,7 @@ const projects = [
     description: "A mini e-commerce application which allows users to view and purchase products with Stripe verification. Admins can add products and categories.",
     tech: "Rails 4.2, PostgreSQL, SASS/SCSS, Bootstrap 4, bcrypt, Stripe API",
     github: "https://github.com/jatanassian/jungle-rails",
+    url: null,
     image: require("../images/jungle.png")
   },
   {
@@ -41,6 +43,7 @@ const projects = [
     description: "A web application inspired by Reddit that allows users to post content, like, rate and comment posts, create a collection of posts and review all their activity.",
     tech: "EJS, Express, jQuery, Node.js, AJAX, SASS/SCSS, PostgreSQL",
     github: "https://github.com/jatanassian/Memo",
+    url: null,
     image: require("../images/memo.png")
   },
   {
@@ -49,6 +52,7 @@ const projects = [
     description: "A simple and responsive single-page Twitter clone.",
     tech: "jQuery, CSS, AJAX, Node.js",
     github: "https://github.com/jatanassian/tweeter",
+    url: null,
     image: require("../images/tweeter.png")
   },
   {
@@ -57,6 +61,7 @@ const projects = [
     description: "A URL shortening app with basic analytics.",
     tech: "Node.js, Express, EJS, bcrypt, cookie-session, Mocha, Chai",
     github: "https://github.com/jatanassian/tinyapp",
+    url: null,
     image: require("../images/tinyapp.png")
   },
 ]
