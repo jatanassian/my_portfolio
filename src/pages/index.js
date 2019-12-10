@@ -32,6 +32,7 @@ const projects = [
     description: "This is a single-page app built on React.js that allows users to book, edit or cancel interviews for each day of the week .",
     tech: "React.js, Node.js, Axios, Storybook, Jest, Cypress",
     github: "https://github.com/jatanassian/scheduler",
+    url: "https://competent-kepler-8ba31c.netlify.com",
     image: require("../images/scheduler.png")
   },
   {
