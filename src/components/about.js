@@ -13,7 +13,7 @@ const About = () => (
       }}
     >
       <h3 style={{ fontFamily: 'Roboto Slab, serif', fontWeight: '600' }}>About me</h3>
-      <p>Hi, I'm a <span style={{ borderBottom: 'solid 1px #c80b72', color: '#c80b72' }}>full stack web developer</span> with a background in marketing based in Ottawa.</p>
+      <p>Hi, I'm a <span style={{ color: '#c80b72' }}>full stack web developer</span> with a background in marketing based in Ottawa.</p>
       <p>I enjoy the never ending learning journey that is web development. I also like solving problems and being part of a community. Member of <a style={{ textDecoration: 'none', borderBottom: 'solid 1px #c80b72', color: '#c80b72' }} href="https://www.meetup.com/Ottawa-JavaScript/" rel="noopener noreferrer" target="_blank">Ottawa JavaScript</a>, <a style={{ textDecoration: 'none', borderBottom: 'solid 1px #c80b72', color: '#c80b72' }} href="https://www.meetup.com/ottawacodes/" rel="noopener noreferrer" target="_blank">Ottawa Codes</a>, <a style={{ textDecoration: 'none', borderBottom: 'solid 1px #c80b72', color: '#c80b72' }} href="https://www.meetup.com/OttawaRuby/" rel="noopener noreferrer" target="_blank">Ottawa Ruby</a> & <a style={{ textDecoration: 'none', borderBottom: 'solid 1px #c80b72', color: '#c80b72' }} href="https://www.meetup.com/Ottawa-ReactJS-Meetup/" rel="noopener noreferrer" target="_blank">React Ottawa</a>.</p>
       <p>If you want to contact me, send me an email at <a style={{ textDecoration: 'none', borderBottom: 'solid 1px #c80b72', color: '#c80b72' }} href="mailto:julien.atanassian@gmail.com">julien.atanassian@gmail.com</a></p>
       <div style={{display: 'flex', flexWrap: 'wrap', marginTop: '1.8rem'}}>
