@@ -12,6 +12,15 @@ import '../components/styles.css'
 const projects = [
   {
     key: 1,
+    name: "Angular Calculator",
+    description: "A calculator performing basic maths.",
+    tech: "Angular",
+    github: "https://github.com/jatanassian/Angular_Calculator",
+    url: "https://pedantic-beaver-93b9fa.netlify.com",
+    image: require("../images/angular_calculator.png")
+  },
+  {
+    key: 2,
     name: "Nomad",
     description: "A travel planner which suggests random cities, the main activities and the estimated cost for accommodation, transport and daily life. Once a city is added to the trip it suggests you a new city to explore around the previous one.",
     tech: "React.js, Node.js, Express, Axios, PostgreSQL, knex.js, Google Maps API, Nodemailer, SASS/SCSS, React Bootstrap, Json Web Token",
@@ -20,7 +29,7 @@ const projects = [
     image: require("../images/nomad.png")
   },
   {
-    key: 2,
+    key: 3,
     name: "Jungle",
     description: "A mini e-commerce application which allows users to view and purchase products with Stripe verification. Admins can add products and categories.",
     tech: "Rails 4.2, PostgreSQL, SASS/SCSS, Bootstrap 4, bcrypt, Stripe API",
@@ -29,7 +38,7 @@ const projects = [
     image: require("../images/jungle.png")
   },
   {
-    key: 3,
+    key: 4,
     name: "Interview scheduler",
     description: "This is a single-page app built on React.js that allows users to book, edit or cancel interviews for each day of the week .",
     tech: "React.js, Node.js, Axios, Storybook, Jest, Cypress",
@@ -38,7 +47,7 @@ const projects = [
     image: require("../images/scheduler.png")
   },
   {
-    key: 4,
+    key: 5,
     name: "Memo",
     description: "A web application inspired by Reddit that allows users to post content, like, rate and comment posts, create a collection of posts and review all their activity.",
     tech: "EJS, Express, jQuery, Node.js, AJAX, SASS/SCSS, PostgreSQL",
@@ -47,7 +56,7 @@ const projects = [
     image: require("../images/memo.png")
   },
   {
-    key: 5,
+    key: 6,
     name: "Tweeter",
     description: "A simple and responsive single-page Twitter clone.",
     tech: "jQuery, CSS, AJAX, Node.js",
@@ -56,7 +65,7 @@ const projects = [
     image: require("../images/tweeter.png")
   },
   {
-    key: 6,
+    key: 7,
     name: "TinyApp",
     description: "A URL shortening app with basic analytics.",
     tech: "Node.js, Express, EJS, bcrypt, cookie-session, Mocha, Chai",
