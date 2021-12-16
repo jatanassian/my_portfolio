@@ -12,12 +12,12 @@ import '../components/styles.css'
 const projects = [
   {
     key: 1,
-    name: "Angular Calculator",
-    description: "A calculator performing basic maths.",
-    tech: "Angular",
-    github: "https://github.com/jatanassian/Angular_Calculator",
-    url: "https://pedantic-beaver-93b9fa.netlify.com",
-    image: require("../images/angular_calculator.png")
+    name: "CSS Playground",
+    description: "A webapp that let's you play with different CSS properties (rotate, skew...).",
+    tech: "Vue",
+    github: "https://github.com/jatanassian/css-playground",
+    url: "https://vigorous-lichterman-d7a26f.netlify.app",
+    image: require("../images/css_playground.png")
   },
   {
     key: 2,
