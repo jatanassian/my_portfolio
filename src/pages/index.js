@@ -17,7 +17,7 @@ const projects = [
     tech: "Vue",
     github: "https://github.com/jatanassian/css-playground",
     url: "https://vigorous-lichterman-d7a26f.netlify.app",
-    image: require("../images/css_playground.png")
+    image: require("../images/css-playground.png")
   },
   {
     key: 2,
