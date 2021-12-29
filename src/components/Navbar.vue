@@ -15,8 +15,6 @@ export default {
 
 <style scoped>
 .navbar {
-  /* border: solid 1px green;
-  position: fixed; */
   padding: .5rem;
   top: 0;
   left: 0;
