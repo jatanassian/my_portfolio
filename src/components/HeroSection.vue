@@ -31,7 +31,6 @@ export default {
   justify-content: center;
   align-items: center;
   min-height: 500px;
-  color: #f8f8ff;
 }
 
 h1 {
