@@ -2,12 +2,14 @@
   <Navbar />
   <HeroSection />
   <About />
+  <Projects />
 </template>
 
 <script>
 import HeroSection from './components/HeroSection.vue'
 import Navbar from './components/Navbar.vue'
 import About from './components/About.vue'
+import Projects from './components/Projects.vue'
 
 export default {
   name: 'App',
@@ -15,6 +17,7 @@ export default {
     HeroSection,
     Navbar,
     About,
+    Projects,
   }
 }
 </script>
@@ -29,6 +32,7 @@ export default {
 body {
   min-height: 100vh;
   background: linear-gradient(180deg, rgba(12,20,69,1) 0%, rgba(56,40,92,1) 90%, rgba(76,64,142,1) 100%);
+  background-attachment: fixed;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
