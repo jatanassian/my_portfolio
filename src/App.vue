@@ -1,17 +1,20 @@
 <template>
   <Navbar />
   <HeroSection />
+  <About />
 </template>
 
 <script>
 import HeroSection from './components/HeroSection.vue'
 import Navbar from './components/Navbar.vue'
+import About from './components/About.vue'
 
 export default {
   name: 'App',
   components: {
     HeroSection,
     Navbar,
+    About,
   }
 }
 </script>
@@ -31,7 +34,6 @@ body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #aaa;
+  color: #f8f8ff;
 }
 </style>
