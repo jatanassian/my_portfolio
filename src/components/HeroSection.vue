@@ -1,5 +1,5 @@
 <template>
-  <div class="text">
+  <header class="text">
     <h1>Julien Atanassian</h1>
     <h2>Full Stack Web Developer</h2>
     <div class="socials">
@@ -13,7 +13,7 @@
         <img src="@/assets/twitter.png" alt="Twitter" />
       </a>
     </div>
-  </div>
+  </header>
 </template>
 
 <script>
@@ -25,7 +25,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .text {
-  border: solid 1px red;
   display: flex;
   flex-direction: column;
   justify-content: center;
