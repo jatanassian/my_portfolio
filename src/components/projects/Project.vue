@@ -96,7 +96,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px;
+  margin: 10px 10px 0 10px;
 }
 
 .footer img {
