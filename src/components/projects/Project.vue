@@ -1,18 +1,34 @@
 <template>
   <div class="project">
+
+    <!-- Header -->
     <div class="header">
       <span class="circle red"></span>
       <span class="circle orange"></span>
       <span class="circle green"></span>
-      <h3>CSS Playground</h3>
+      <h3>{{ project.name }}</h3>
     </div>
-    <img src="@/assets/images/css-playground.png" alt="css-playground-screenshot">
-    <div class="content">A webapp that let's you play with different CSS properties (rotate, skew...) and copy the code. <br> Made using Vue.js</div>
+
+    <!-- Screenshot / Image -->
+    <img :src="require(`@/assets/images/${project.image}.png`)" :alt="`${project.image}-screenshot`">
+
+    <!-- Description and Tech -->
+    <div class="description">
+      {{ project.description }} 
+      <br> 
+      <span class="tech">Made using {{ project.tech }}</span>
+    </div>
+
+    <!-- Footer -->
     <div class="footer">
-      <a href="https://github.com/jatanassian" target="_blank" rel="noreferrer noopener">
+
+      <!-- Code -->
+      <a :href="`${project.github}`" target="_blank" rel="noreferrer noopener">
         <img src="@/assets/icons/code.png" alt="See code" />
       </a>
-      <a href="https://github.com/jatanassian" target="_blank" rel="noreferrer noopener">
+
+      <!-- Link -->
+      <a v-show="project.url" :href="`${project.url}`" target="_blank" rel="noreferrer noopener">
         <img src="@/assets/icons/live.png" alt="See app" />
       </a>
     </div>
@@ -21,13 +37,15 @@
 
 <script>
 export default {
-  name: 'Project'
+  name: 'Project',
+  props: { project: Object }
 }
 </script>
 
 <style scoped>
 .project {
-  width: 300px;
+  width: 400px;
+  height: auto;
   background-color: rgba(255, 255, 255, .15);  
   backdrop-filter: blur(5px);
   border-radius: 15px;
@@ -65,9 +83,13 @@ img {
   width: 100%;
 }
 
-.content {
+.description {
   margin: 10px;
   font-size: .9rem;
+}
+
+.description .tech {
+  font-size: 0.8rem;
 }
 
 .footer {
