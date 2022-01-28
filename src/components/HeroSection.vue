@@ -4,13 +4,13 @@
     <h2>Full Stack Web Developer</h2>
     <div class="socials">
       <a href="https://github.com/jatanassian" target="_blank" rel="noreferrer noopener">
-        <img src="@/assets/github.png" alt="GitHub" />
+        <img src="@/assets/icons/github.png" alt="GitHub" />
       </a>
       <a href="https://www.linkedin.com/in/julien-atanassian/" target="_blank" rel="noreferrer noopener">
-        <img src="@/assets/linkedin-logo.png" alt="LinkedIn" />
+        <img src="@/assets/icons/linkedin-logo.png" alt="LinkedIn" />
       </a>
       <a href="https://twitter.com/jatanassian" target="_blank" rel="noreferrer noopener">
-        <img src="@/assets/twitter.png" alt="Twitter" />
+        <img src="@/assets/icons/twitter.png" alt="Twitter" />
       </a>
     </div>
   </header>
