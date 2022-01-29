@@ -63,7 +63,7 @@ export default {
   width: 10px;
   background-color: #bbb;
   border-radius: 50%;
-  margin: 0 2px;
+  margin: 0 3px;
 }
 
 .red {
