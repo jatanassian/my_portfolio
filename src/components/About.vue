@@ -29,7 +29,7 @@ export default {
   data() {
     return {
       languages: ['HTML', 'CSS', 'JavaScript', 'Python', 'Ruby'],
-      libraries: ['Vue.js', 'Node.js', 'React', 'GraphQL', 'Mocha & Chai', 'Jest'],
+      libraries: ['Vue.js', 'Node.js', 'Express', 'React', 'GraphQL', 'Mocha & Chai', 'Jest'],
       systems: ['Git', 'SQL', 'PostgreSQL', 'Google Cloud Platform'],
     }
   }
