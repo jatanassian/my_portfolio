@@ -3,13 +3,13 @@
     <h1>Julien Atanassian</h1>
     <h2>Full Stack Web Developer</h2>
     <div class="socials">
-      <a href="https://github.com/jatanassian" target="_blank" rel="noreferrer noopener">
+      <a href="https://github.com/jatanassian" target="_blank" rel="noreferrer noopener" class="grow">
         <img src="@/assets/icons/github.png" alt="GitHub" />
       </a>
-      <a href="https://www.linkedin.com/in/julien-atanassian/" target="_blank" rel="noreferrer noopener">
+      <a href="https://www.linkedin.com/in/julien-atanassian/" target="_blank" rel="noreferrer noopener" class="grow">
         <img src="@/assets/icons/linkedin-logo.png" alt="LinkedIn" />
       </a>
-      <a href="https://twitter.com/jatanassian" target="_blank" rel="noreferrer noopener">
+      <a href="https://twitter.com/jatanassian" target="_blank" rel="noreferrer noopener" class="grow">
         <img src="@/assets/icons/twitter.png" alt="Twitter" />
       </a>
     </div>
@@ -40,6 +40,12 @@ h2 {
   font-size: 40px;
 }
 
+a {
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
+}
+
 .socials {
   margin-top: 2rem;
   display: flex;
@@ -49,7 +55,6 @@ h2 {
 
 img {
   height: 2rem;
-  margin: 0 1rem;
 }
 
 img:hover {
