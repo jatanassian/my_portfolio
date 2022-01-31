@@ -1,8 +1,6 @@
 <template>
   <div class="navbar">
-    <span class="item">About</span>
-    <span class="item">Projects</span>
-    <button class="item">Contact</button>
+    <button class="grow">Contact me</button>
   </div>
 </template>
 
@@ -15,7 +13,7 @@ export default {
 
 <style scoped>
 .navbar {
-  padding: .5rem;
+  padding: .7rem;
   top: 0;
   left: 0;
   right: 0;
@@ -24,12 +22,9 @@ export default {
   align-items: center;
 }
 
-.item {
-  margin: 0 1rem;
-}
-
 button {
   background-color: #42b983;
+  font-size: 1rem;
   color: white;
   border: none;
   padding: .7rem 1.3rem;
@@ -39,5 +34,10 @@ button {
 
 button:hover {
   cursor: pointer;
+  background-color: #3ba575;
+}
+
+button:active {
+  background-color: #41b480;
 }
 </style>
