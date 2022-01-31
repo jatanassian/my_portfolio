@@ -40,4 +40,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #f8f8ff;
 }
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
+
+.grow:active {
+  transform: scale(1.05);
+}
 </style>
