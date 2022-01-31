@@ -42,7 +42,7 @@ body {
 }
 
 .grow {
-  transition: all .2s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 
 .grow:hover {
