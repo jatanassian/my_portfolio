@@ -23,12 +23,12 @@
     <div class="footer">
 
       <!-- Code -->
-      <a :href="`${project.github}`" target="_blank" rel="noreferrer noopener">
+      <a :href="`${project.github}`" target="_blank" rel="noreferrer noopener" class="grow">
         <img src="@/assets/icons/code.png" alt="See code" />
       </a>
 
       <!-- Link -->
-      <a v-show="project.url" :href="`${project.url}`" target="_blank" rel="noreferrer noopener">
+      <a v-show="project.url" :href="`${project.url}`" target="_blank" rel="noreferrer noopener" class="grow">
         <img src="@/assets/icons/live.png" alt="See app" />
       </a>
     </div>
