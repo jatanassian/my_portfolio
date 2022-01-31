@@ -3,6 +3,7 @@
   <HeroSection />
   <About />
   <Projects />
+  <Contact />
 </template>
 
 <script>
@@ -10,6 +11,7 @@ import HeroSection from './components/HeroSection.vue'
 import Navbar from './components/Navbar.vue'
 import About from './components/About.vue'
 import Projects from './components/Projects.vue'
+import Contact from './components/Contact.vue'
 
 export default {
   name: 'App',
@@ -18,6 +20,7 @@ export default {
     Navbar,
     About,
     Projects,
+    Contact
   }
 }
 </script>
