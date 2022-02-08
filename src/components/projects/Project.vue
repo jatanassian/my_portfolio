@@ -44,7 +44,7 @@ export default {
 
 <style scoped>
 .project {
-  width: 400px;
+  max-width: 400px;
   height: auto;
   background-color: rgba(255, 255, 255, .15);  
   backdrop-filter: blur(5px);

@@ -88,7 +88,7 @@ export default {
 
 <style scoped>
 .projects {
-  margin: 0 5rem;
+  margin: 0 1rem;
   padding: 3rem 0;
   border-top: solid 1px #ffffff;
   border-bottom: solid 1px #ffffff;
@@ -96,7 +96,6 @@ export default {
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(3, minmax(200px, 1fr));
   justify-items: center;
   align-items: start;
   gap: 1rem;
@@ -106,8 +105,13 @@ h2 {
   font-size: 40px;
 }
 
-.projects-list {
-  display: grid;
+@media (min-width: 650px) {
+  .projects { margin: 0 2rem; }
+  .projects-container  { grid-template-columns: repeat(2, minmax(200px, 1fr)); }
+}
 
+@media (min-width: 1100px) {
+  .projects { margin: 0 5rem; }
+  .projects-container  { grid-template-columns: repeat(3, minmax(200px, 1fr)); }
 }
 </style>
