@@ -42,4 +42,8 @@ button:active {
   background-color: #41b480;
   transform: scale(0.98);
 }
+
+@media (max-width: 500px) {
+  button { display: none; }
+}
 </style>
