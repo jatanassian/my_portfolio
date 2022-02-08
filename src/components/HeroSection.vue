@@ -13,6 +13,7 @@
         <img src="@/assets/icons/twitter.png" alt="Twitter" />
       </a>
     </div>
+    <button>Contact me</button>
   </header>
 </template>
 
@@ -22,7 +23,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .text {
   display: flex;
@@ -33,11 +33,12 @@ export default {
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 35px;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 a {
@@ -47,7 +48,7 @@ a {
 }
 
 .socials {
-  margin-top: 2rem;
+  margin: 2rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,5 +60,39 @@ img {
 
 img:hover {
   cursor: pointer;
+}
+
+button {
+  background-color: #42b983;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  padding: .7rem 1.3rem;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background-color .4s ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #3ba575;
+}
+
+button:active {
+  background-color: #41b480;
+  transform: scale(0.98);
+}
+
+@media (min-width: 400px) {
+  h1 { font-size: 50px;}
+  h2 { font-size: 25px;}
+}
+@media (min-width: 500px) {
+  button { display: none; }
+}
+
+@media (min-width: 750px) {
+  h1 { font-size: 70px;}
+  h2 { font-size: 40px;}
 }
 </style>
