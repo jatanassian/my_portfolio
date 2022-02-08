@@ -1,6 +1,6 @@
 <template>
   <div class="navbar">
-    <button class="grow">Contact me</button>
+    <button>Contact me</button>
   </div>
 </template>
 
@@ -30,6 +30,7 @@ button {
   padding: .7rem 1.3rem;
   border-radius: 30px;
   font-weight: bold;
+  transition: background-color .4s ease-in-out;
 }
 
 button:hover {
@@ -39,5 +40,6 @@ button:hover {
 
 button:active {
   background-color: #41b480;
+  transform: scale(0.98);
 }
 </style>
