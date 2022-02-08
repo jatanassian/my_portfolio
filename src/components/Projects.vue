@@ -88,7 +88,7 @@ export default {
 
 <style scoped>
 .projects {
-  margin: 0 1rem;
+  margin: 0 1.5rem;
   padding: 3rem 0;
   border-top: solid 1px #ffffff;
   border-bottom: solid 1px #ffffff;
@@ -103,14 +103,18 @@ export default {
 
 h2 {
   font-size: 40px;
+  margin-bottom: 2rem;
+  text-align: center;
 }
 
 @media (min-width: 650px) {
-  .projects { margin: 0 2rem; }
+  h2 { text-align: left; }
+  .projects { margin: 0 3.5rem; }
   .projects-container  { grid-template-columns: repeat(2, minmax(200px, 1fr)); }
 }
 
 @media (min-width: 1100px) {
+  h2 { text-align: left; }
   .projects { margin: 0 5rem; }
   .projects-container  { grid-template-columns: repeat(3, minmax(200px, 1fr)); }
 }
