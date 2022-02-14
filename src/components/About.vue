@@ -49,15 +49,22 @@ h2 {
 }
 
 .tech {
-  /* display: flex; */
   margin-top: 30px;
   display: grid;
-  grid-template-columns: 200px 200px 200px;
+  grid-template-columns: repeat(1, 200px);
   grid-template-rows: auto;
 }
 
 .tech-column {
   display: flex;
   flex-direction: column;
+}
+
+@media (min-width: 650px) {
+  .tech  { grid-template-columns: repeat(2, 200px); }
+}
+
+@media (min-width: 1100px) {
+  .tech  { grid-template-columns: repeat(3, 200px); }
 }
 </style>
