@@ -7,18 +7,18 @@
     <div>I enjoy the never ending learning journey that is web development. I also like solving problems and being part of a community. Member of Ottawa JavaScript, Ottawa Ruby & React Ottawa.</div>
 
     <div class="tech">
-      <div class="tech-column">
-        <strong>Languages:</strong>
-        <span v-for="lang in languages" :key="lang">{{ lang }}</span>
-      </div>
-      <div class="tech-column">
-        <strong>Libraries:</strong>
-        <span v-for="lib in libraries" :key="lib">{{ lib }}</span>
-      </div>
-      <div class="tech-column">
-        <strong>Database & Systems:</strong>
-        <span v-for="syst in systems" :key="syst">{{ syst }}</span>
-      </div>
+      <ul class="tech-column">
+        <li><strong>Languages:</strong></li>
+        <li v-for="lang in languages" :key="lang">{{ lang }}</li>
+      </ul>
+      <ul class="tech-column">
+        <li><strong>Libraries:</strong></li>
+        <li v-for="lib in libraries" :key="lib">{{ lib }}</li>
+      </ul>
+      <ul class="tech-column">
+        <li><strong>Database & Systems:</strong></li>
+        <li v-for="syst in systems" :key="syst">{{ syst }}</li>
+      </ul>
     </div>
   </section>
 </template>
@@ -46,10 +46,11 @@ export default {
 
 h2 {
   font-size: 40px;
+  margin-bottom: 2rem;
+  text-align: center;
 }
 
 .tech {
-  margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(1, 200px);
   grid-template-rows: auto;
@@ -58,13 +59,24 @@ h2 {
 .tech-column {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+li {
+  list-style-type: none;
+}
+
+@media (min-width: 500px) {
+  .tech  { grid-template-columns: repeat(2, 200px); }
+  .tech-column { align-items: start; }
 }
 
 @media (min-width: 650px) {
-  .tech  { grid-template-columns: repeat(2, 200px); }
+  h2 { text-align: left; }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 700px) {
   .tech  { grid-template-columns: repeat(3, 200px); }
 }
 </style>
