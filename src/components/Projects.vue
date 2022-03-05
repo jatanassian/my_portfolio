@@ -114,7 +114,6 @@ h2 {
 }
 
 @media (min-width: 1100px) {
-  h2 { text-align: left; }
   .projects { margin: 0 5rem; }
   .projects-container  { grid-template-columns: repeat(3, minmax(200px, 1fr)); }
 }
