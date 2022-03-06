@@ -38,14 +38,14 @@ export default {
 
 <style scoped>
 .about {
-  margin: 0 5rem;
+  margin: 0 2rem;
   padding: 3rem 0;
   border-top: solid 1px #ffffff;
   border-bottom: solid 1px #ffffff;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -68,6 +68,7 @@ li {
 }
 
 @media (min-width: 500px) {
+  .about { margin: 0 3rem; }
   .tech  { grid-template-columns: repeat(2, 200px); }
   .tech-column { align-items: start; }
 }
@@ -77,6 +78,8 @@ li {
 }
 
 @media (min-width: 700px) {
+  .about { margin: 0 5rem; }
+  h2 { font-size: 40px; }
   .tech  { grid-template-columns: repeat(3, 200px); }
 }
 </style>
