@@ -4,7 +4,7 @@
     
     <p>Hi, I'm a full stack web developer with a background in marketing based in Ottawa.</p>
 
-    <p>I enjoy the never ending learning journey that is web development. I also like solving problems and being part of a community. Member of Ottawa JavaScript, Ottawa Ruby & React Ottawa.</p>
+    <p>I enjoy the never ending learning journey that is web development. I also like solving problems and being part of a community.</p>
 
     <div class="tech">
       <ul class="tech-column">
@@ -52,7 +52,7 @@ h2 {
 
 .tech {
   display: grid;
-  grid-template-columns: repeat(1, 200px);
+  grid-template-columns: repeat(1, auto);
   grid-template-rows: auto;
 }
 
