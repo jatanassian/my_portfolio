@@ -1,7 +1,7 @@
 <template>
-  <section class="projects">
+  <section>
     <h2>Projects</h2>
-    <div class="projects-container">
+    <div class="projects">
       <Project v-for="project in projects.slice().reverse()" :key="project.key" :project="project"/>
     </div>
   </section>
@@ -87,12 +87,12 @@ export default {
 </script>
 
 <style scoped>
-.projects {
+section {
   margin: 0 2rem;
   padding: 3rem 0;
 }
 
-.projects-container {
+.projects {
   display: grid;
   justify-items: center;
   align-items: start;
@@ -100,19 +100,23 @@ export default {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 2rem;
   text-align: center;
 }
 
 @media (min-width: 650px) {
   h2 { text-align: left; }
-  .projects { margin: 0 3.5rem; }
-  .projects-container  { grid-template-columns: repeat(2, minmax(200px, 1fr)); }
+  section { margin: 0 3.5rem; }
+  .projects  { grid-template-columns: repeat(2, minmax(200px, 1fr)); }
+}
+
+@media (min-width: 700px) {
+  h2 { font-size: 40px; }
 }
 
 @media (min-width: 1100px) {
-  .projects { margin: 0 5rem; }
-  .projects-container  { grid-template-columns: repeat(3, minmax(200px, 1fr)); }
+  section { margin: 0 5rem; }
+  .projects  { grid-template-columns: repeat(3, minmax(200px, 1fr)); }
 }
 </style>
