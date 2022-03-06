@@ -2,9 +2,9 @@
   <section class="about">
     <h2>About me</h2>
     
-    <div>Hi, I'm a full stack web developer with a background in marketing based in Ottawa.</div>
+    <p>Hi, I'm a full stack web developer with a background in marketing based in Ottawa.</p>
 
-    <div>I enjoy the never ending learning journey that is web development. I also like solving problems and being part of a community. Member of Ottawa JavaScript, Ottawa Ruby & React Ottawa.</div>
+    <p>I enjoy the never ending learning journey that is web development. I also like solving problems and being part of a community. Member of Ottawa JavaScript, Ottawa Ruby & React Ottawa.</p>
 
     <div class="tech">
       <ul class="tech-column">
