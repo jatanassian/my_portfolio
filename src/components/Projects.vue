@@ -90,8 +90,6 @@ export default {
 .projects {
   margin: 0 2rem;
   padding: 3rem 0;
-  border-top: solid 1px #ffffff;
-  border-bottom: solid 1px #ffffff;
 }
 
 .projects-container {
