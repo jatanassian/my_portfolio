@@ -13,13 +13,16 @@
         <img src="@/assets/icons/twitter.png" alt="Twitter" />
       </a>
     </div>
-    <button>Contact me</button>
+    <ContactButton class="contact-btn" />
   </header>
 </template>
 
 <script>
+import ContactButton from './ui/ContactButton.vue';
+
 export default {
   name: 'HeroSection',
+  components: { ContactButton }
 }
 </script>
 
@@ -62,33 +65,12 @@ img:hover {
   cursor: pointer;
 }
 
-button {
-  background-color: #42b983;
-  font-size: 1rem;
-  color: white;
-  border: none;
-  padding: .7rem 1.3rem;
-  border-radius: 30px;
-  font-weight: bold;
-  transition: background-color .4s ease-in-out;
-}
-
-button:hover {
-  cursor: pointer;
-  background-color: #3ba575;
-}
-
-button:active {
-  background-color: #41b480;
-  transform: scale(0.98);
-}
-
 @media (min-width: 400px) {
   h1 { font-size: 50px;}
   h2 { font-size: 25px;}
 }
 @media (min-width: 501px) {
-  button { display: none; }
+  .contact-btn { display: none; }
 }
 
 @media (min-width: 750px) {

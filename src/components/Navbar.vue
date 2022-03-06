@@ -1,12 +1,14 @@
 <template>
   <div class="navbar">
-    <button>Contact me</button>
+    <ContactButton class="contact-btn" />
   </div>
 </template>
 
 <script>
+import ContactButton from './ui/ContactButton.vue';
 export default {
-  name: 'Navbar'
+  name: 'Navbar',
+  components: { ContactButton }
 
 }
 </script>
@@ -22,28 +24,7 @@ export default {
   align-items: center;
 }
 
-button {
-  background-color: #42b983;
-  font-size: 1rem;
-  color: white;
-  border: none;
-  padding: .7rem 1.3rem;
-  border-radius: 30px;
-  font-weight: bold;
-  transition: background-color .4s ease-in-out;
-}
-
-button:hover {
-  cursor: pointer;
-  background-color: #3ba575;
-}
-
-button:active {
-  background-color: #41b480;
-  transform: scale(0.98);
-}
-
 @media (max-width: 500px) {
-  button { display: none; }
+  .contact-btn { display: none; }
 }
 </style>
