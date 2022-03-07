@@ -69,8 +69,10 @@ li {
 
 @media (min-width: 500px) {
   .about { margin: 0 3rem; }
-  .tech  { grid-template-columns: repeat(2, 200px); }
-  .tech-column { align-items: start; }
+  .tech  { 
+    grid-template-columns: repeat(2, 200px);
+    justify-content: center;
+  }
 }
 
 @media (min-width: 650px) {
@@ -80,6 +82,10 @@ li {
 @media (min-width: 700px) {
   .about { margin: 0 5rem; }
   h2 { font-size: 40px; }
-  .tech  { grid-template-columns: repeat(3, 200px); }
+  .tech  { 
+    grid-template-columns: repeat(3, 200px);
+    justify-content: start;
+  }
+  .tech-column { align-items: start; }
 }
 </style>
