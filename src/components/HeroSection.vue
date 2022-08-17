@@ -19,14 +19,14 @@
       >
         <img src="@/assets/icons/linkedin-logo.png" alt="LinkedIn" />
       </a>
-      <a
+      <!-- <a
         href="https://twitter.com/jatanassian"
         target="_blank"
         rel="noreferrer noopener"
         class="grow"
       >
         <img src="@/assets/icons/twitter.png" alt="Twitter" />
-      </a>
+      </a> -->
       <a
         href="https://resume.creddle.io/resume/emm9svs875o"
         target="_blank"
