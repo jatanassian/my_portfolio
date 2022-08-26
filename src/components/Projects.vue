@@ -56,7 +56,8 @@ export default {
             "Single-page app that allows users to book, edit or cancel interviews for each day of the week.",
           tech: "React.js, Node.js, Jest, Cypress",
           github: "https://github.com/jatanassian/scheduler",
-          url: "https://competent-kepler-8ba31c.netlify.com",
+          // url: "https://competent-kepler-8ba31c.netlify.com",
+          url: null,
           image: "scheduler",
         },
         {
@@ -86,7 +87,7 @@ export default {
             "(PROJECT IN PROGRESS). A progressive web application where you can upload mp3 files, play them, edit their info, delete them or comment them.",
           tech: "Vue.js, Tailwind CSS, Firebase/Firestore (authentication, storage, database), Vite, Howler.js",
           github: "https://github.com/jatanassian/vue-music",
-          url: null,
+          url: "https://moonlit-arithmetic-37e071.netlify.app/",
           image: "vue-music",
         },
       ],
