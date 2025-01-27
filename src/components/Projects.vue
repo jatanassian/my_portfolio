@@ -12,9 +12,9 @@
 </template>
 
 <script>
-import Project from "./projects/Project.vue";
+import Project from './projects/Project.vue'
 export default {
-  name: "Projects",
+  name: 'Projects',
   components: {
     Project,
   },
@@ -23,77 +23,77 @@ export default {
       projects: [
         {
           key: 1,
-          name: "TinyApp",
-          description: "A URL shortening app with analytics.",
-          tech: "Node.js, Express, EJS, bcrypt, cookie-session, Mocha, Chai",
-          github: "https://github.com/jatanassian/tinyapp",
+          name: 'TinyApp',
+          description: 'A URL shortening app with analytics.',
+          tech: 'Node.js, Express, EJS, bcrypt, cookie-session, Mocha, Chai',
+          github: 'https://github.com/jatanassian/tinyapp',
           url: null,
-          image: "tinyapp",
+          image: 'tinyapp',
         },
         {
           key: 2,
-          name: "Tweeter",
-          description: "A responsive single-page Twitter clone.",
-          tech: "jQuery, CSS, AJAX, Node.js",
-          github: "https://github.com/jatanassian/tweeter",
+          name: 'Tweeter',
+          description: 'A responsive single-page Twitter clone.',
+          tech: 'jQuery, CSS, AJAX, Node.js',
+          github: 'https://github.com/jatanassian/tweeter',
           url: null,
-          image: "tweeter",
+          image: 'tweeter',
         },
         {
           key: 3,
-          name: "Memo",
+          name: 'Memo',
           description:
-            "A web application inspired by Reddit allowing users to post content, like, rate and comment posts, create a collection of posts and review all their activity.",
-          tech: "EJS, jQuery, Node.js, AJAX, SASS/SCSS, PostgreSQL",
-          github: "https://github.com/jatanassian/Memo",
+            'A web application inspired by Reddit allowing users to post content, like, rate and comment posts, create a collection of posts and review all their activity.',
+          tech: 'EJS, jQuery, Node.js, AJAX, SASS/SCSS, PostgreSQL',
+          github: 'https://github.com/jatanassian/Memo',
           url: null,
-          image: "memo",
+          image: 'memo',
         },
         {
           key: 4,
-          name: "Interview scheduler",
+          name: 'Interview scheduler',
           description:
-            "Single-page app that allows users to book, edit or cancel interviews for each day of the week.",
-          tech: "React.js, Node.js, Jest, Cypress",
-          github: "https://github.com/jatanassian/scheduler",
+            'Single-page app that allows users to book, edit or cancel interviews for each day of the week.',
+          tech: 'React.js, Node.js, Jest, Cypress',
+          github: 'https://github.com/jatanassian/scheduler',
           // url: "https://competent-kepler-8ba31c.netlify.com",
           url: null,
-          image: "scheduler",
+          image: 'scheduler',
         },
         {
           key: 5,
-          name: "Jungle",
+          name: 'Jungle',
           description:
-            "A mini e-commerce application which allows users to view and purchase products with Stripe verification. Admins can add products and categories.",
-          tech: "Rails 4.2, PostgreSQL, SASS/SCSS, Bootstrap 4",
-          github: "https://github.com/jatanassian/jungle-rails",
+            'A mini e-commerce application which allows users to view and purchase products with Stripe verification. Admins can add products and categories.',
+          tech: 'Rails 4.2, PostgreSQL, SASS/SCSS, Bootstrap 4',
+          github: 'https://github.com/jatanassian/jungle-rails',
           url: null,
-          image: "jungle",
+          image: 'jungle',
         },
         {
           key: 6,
-          name: "Nomad",
+          name: 'Nomad',
           description:
-            "A travel planner which suggests cities, activities and estimated cost. Once a city is added to the trip it suggests you a new city to explore around the previous one.",
-          tech: "React.js, Node.js, PostgreSQL, knex.js, Google Maps API, Nodemailer, SASS/SCSS, Bootstrap",
-          github: "https://github.com/jatanassian/Nomad",
+            'A travel planner which suggests cities, activities and estimated cost. Once a city is added to the trip it suggests you a new city to explore around the previous one.',
+          tech: 'React.js, Node.js, PostgreSQL, knex.js, Google Maps API, Nodemailer, SASS/SCSS, Bootstrap',
+          github: 'https://github.com/jatanassian/Nomad',
           url: null,
-          image: "nomad",
+          image: 'nomad',
         },
         {
           key: 7,
-          name: "Vue Music",
+          name: 'Vue Music',
           description:
-            "(PROJECT IN PROGRESS). A progressive web application where you can upload mp3 files, play them, edit their info, delete them or comment them.",
-          tech: "Vue.js, Tailwind CSS, Firebase/Firestore (authentication, storage, database), Vite, Howler.js",
-          github: "https://github.com/jatanassian/vue-music",
-          url: "https://moonlit-arithmetic-37e071.netlify.app/",
-          image: "vue-music",
+            'A progressive web application where you can upload mp3 files, play them, edit their info, delete them or comment them.',
+          tech: 'Vue.js, Tailwind CSS, Firebase/Firestore (authentication, storage, database), Vite, Howler.js',
+          github: 'https://github.com/jatanassian/vue-music',
+          url: 'https://moonlit-arithmetic-37e071.netlify.app/',
+          image: 'vue-music',
         },
       ],
-    };
+    }
   },
-};
+}
 </script>
 
 <style scoped>

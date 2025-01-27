@@ -1,38 +1,35 @@
-# My Portfolio website
+# vue-project
 
-## Project setup
+This template should help get you started developing with Vue 3 in Vite.
 
-```
+## Recommended IDE Setup
+
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vite.dev/config/).
+
+## Project Setup
+
+```sh
 npm install
 ```
 
-### Run project locally
+### Compile and Hot-Reload for Development
 
-```
-npm run serve
+```sh
+npm run dev
 ```
 
-### Compiles and minifies for production
+### Compile and Minify for Production
 
-```
+```sh
 npm run build
 ```
 
-### Lints and fixes files
+### Lint with [ESLint](https://eslint.org/)
 
-```
+```sh
 npm run lint
 ```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-## Features to add
-
-1. Change labels of projects' tech stacks
-2. Download resume button
-3. Dark mode / Light mode switch
-4. Move to Nuxt for better SEO
-5. Contact form instead of email in button (security of my email)
-6. Better background (toy with SVG)

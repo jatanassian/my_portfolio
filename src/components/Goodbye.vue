@@ -6,7 +6,6 @@
 
 <script>
 export default {
-  name: 'Footer',
   data() {
     return {
       today: null,
@@ -17,13 +16,13 @@ export default {
         3: 'Wednesday',
         4: 'Thursday',
         5: 'Friday',
-        6: 'Saturday',
+        6: 'Saturday'
       }
     }
   },
   created() {
-    const d = new Date();
-    this.today = d.getDay();
+    const d = new Date()
+    this.today = d.getDay()
   }
 }
 </script>

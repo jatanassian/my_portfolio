@@ -4,7 +4,7 @@
   <About />
   <Projects />
   <Contact />
-  <Goodbye />
+  <Footer />
 </template>
 
 <script>
@@ -13,7 +13,7 @@ import Navbar from './components/Navbar.vue'
 import About from './components/About.vue'
 import Projects from './components/Projects.vue'
 import Contact from './components/Contact.vue'
-import Goodbye from './components/Goodbye.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
@@ -23,12 +23,13 @@ export default {
     About,
     Projects,
     Contact,
-    Goodbye
+    Footer,
   }
 }
 </script>
 
 <style>
+
 * {
   margin: 0;
   padding: 0;
@@ -36,12 +37,7 @@ export default {
 
 body {
   min-height: 100vh;
-  background: linear-gradient(
-    180deg,
-    rgba(12, 20, 69, 1) 0%,
-    rgba(56, 40, 92, 1) 90%,
-    rgba(76, 64, 142, 1) 100%
-  );
+  background: linear-gradient(180deg, rgba(12,20,69,1) 0%, rgba(56,40,92,1) 90%, rgba(76,64,142,1) 100%);
   background-attachment: fixed;
 }
 #app {
@@ -52,7 +48,7 @@ body {
 }
 
 .grow {
-  transition: all 0.4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 
 .grow:hover {

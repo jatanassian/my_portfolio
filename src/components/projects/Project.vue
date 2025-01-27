@@ -1,6 +1,5 @@
 <template>
   <div class="project">
-
     <!-- Header -->
     <div class="header">
       <span class="circle red"></span>
@@ -10,25 +9,30 @@
     </div>
 
     <!-- Screenshot / Image -->
-    <img :src="require(`@/assets/images/${project.image}.png`)" :alt="`${project.image}-screenshot`">
+    <img :src="getImageUrl(project.image)" :alt="`${project.image}-screenshot`" />
 
     <!-- Description and Tech -->
     <div class="description">
-      {{ project.description }} 
-      <br> 
+      {{ project.description }}
+      <br />
       <span class="tech">Made using {{ project.tech }}</span>
     </div>
 
     <!-- Footer -->
     <div class="footer">
-
       <!-- Code -->
       <a :href="`${project.github}`" target="_blank" rel="noreferrer noopener" class="grow">
         <img src="@/assets/icons/code.png" alt="See code" />
       </a>
 
       <!-- Link -->
-      <a v-show="project.url" :href="`${project.url}`" target="_blank" rel="noreferrer noopener" class="grow">
+      <a
+        v-show="project.url"
+        :href="`${project.url}`"
+        target="_blank"
+        rel="noreferrer noopener"
+        class="grow"
+      >
         <img src="@/assets/icons/live.png" alt="See app" />
       </a>
     </div>
@@ -38,7 +42,12 @@
 <script>
 export default {
   name: 'Project',
-  props: { project: Object }
+  props: { project: Object },
+  methods: {
+    getImageUrl(name) {
+      return new URL(`../../assets/images/${name}.png`, import.meta.url).href
+    }
+  }
 }
 </script>
 
@@ -46,7 +55,7 @@ export default {
 .project {
   max-width: 400px;
   height: auto;
-  background-color: rgba(255, 255, 255, .15);  
+  background-color: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(5px);
   border-radius: 15px;
 }
@@ -85,7 +94,7 @@ img {
 
 .description {
   margin: 10px;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .description .tech {
