@@ -1,10 +1,15 @@
 <template>
   <section class="about">
     <h2>About me</h2>
-    
-    <p>Hi, I'm a full stack web developer with a background in marketing based in Ottawa.</p>
 
-    <p>I enjoy the never ending learning journey that is web development. I also like solving problems and being part of a community.</p>
+    <p>
+      Hi, I'm a full stack web developer with a background in business management based in Toronto.
+    </p>
+
+    <p>
+      I enjoy the never ending learning journey that is web development. I also like solving
+      problems and being part of a community.
+    </p>
 
     <div class="tech">
       <ul class="tech-column">
@@ -30,7 +35,7 @@ export default {
     return {
       languages: ['HTML', 'CSS', 'JavaScript', 'Python', 'Ruby'],
       libraries: ['Vue.js', 'Node.js', 'Express', 'React', 'GraphQL', 'Mocha & Chai', 'Jest'],
-      systems: ['Git', 'SQL', 'PostgreSQL', 'Google Cloud Platform'],
+      systems: ['Git', 'SQL', 'PostgreSQL', 'Google Cloud Platform']
     }
   }
 }
@@ -68,24 +73,34 @@ li {
 }
 
 @media (min-width: 500px) {
-  .about { margin: 0 3rem; }
-  .tech  { 
+  .about {
+    margin: 0 3rem;
+  }
+  .tech {
     grid-template-columns: repeat(2, 200px);
     justify-content: center;
   }
 }
 
 @media (min-width: 650px) {
-  h2 { text-align: left; }
+  h2 {
+    text-align: left;
+  }
 }
 
 @media (min-width: 700px) {
-  .about { margin: 0 5rem; }
-  h2 { font-size: 40px; }
-  .tech  { 
+  .about {
+    margin: 0 5rem;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  .tech {
     grid-template-columns: repeat(3, 200px);
     justify-content: start;
   }
-  .tech-column { align-items: start; }
+  .tech-column {
+    align-items: start;
+  }
 }
 </style>
