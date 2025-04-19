@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import ContactButton from './ui/ContactButton.vue';
+import ContactButton from './ui/ContactButton.vue'
 
 export default {
   name: 'Contact',
@@ -33,11 +33,17 @@ p {
 }
 
 @media (min-width: 500px) {
-  section { margin: 0 3rem; }
+  section {
+    margin: 0 3rem;
+  }
 }
 
 @media (min-width: 700px) {
-  section { margin: 0 5rem; }
-  h2 { font-size: 40px; }
+  section {
+    margin: 0 5rem;
+  }
+  h2 {
+    font-size: 40px;
+  }
 }
 </style>

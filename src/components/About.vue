@@ -33,9 +33,18 @@ export default {
   name: 'About',
   data() {
     return {
-      languages: ['HTML', 'CSS', 'JavaScript', 'Python', 'Ruby'],
-      libraries: ['Vue.js', 'Node.js', 'Express', 'React', 'GraphQL', 'Mocha & Chai', 'Jest'],
-      systems: ['Git', 'SQL', 'PostgreSQL', 'Google Cloud Platform']
+      languages: ['HTML', 'CSS', 'TypeScript', 'JavaScript', 'Python', 'Ruby'],
+      libraries: [
+        'Vue.js',
+        'React',
+        'Node.js',
+        'Express',
+        'NestJS',
+        'GraphQL',
+        'Mocha & Chai',
+        'Jest'
+      ],
+      systems: ['Git', 'SQL', 'PostgreSQL']
     }
   }
 }

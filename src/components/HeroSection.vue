@@ -19,14 +19,6 @@
       >
         <img src="@/assets/icons/linkedin-logo.png" alt="LinkedIn" />
       </a>
-      <!-- <a
-        href="https://twitter.com/jatanassian"
-        target="_blank"
-        rel="noreferrer noopener"
-        class="grow"
-      >
-        <img src="@/assets/icons/twitter.png" alt="Twitter" />
-      </a> -->
       <a
         href="https://resume.creddle.io/resume/emm9svs875o"
         target="_blank"
@@ -41,12 +33,12 @@
 </template>
 
 <script>
-import ContactButton from "./ui/ContactButton.vue";
+import ContactButton from './ui/ContactButton.vue'
 
 export default {
-  name: "HeroSection",
-  components: { ContactButton },
-};
+  name: 'HeroSection',
+  components: { ContactButton }
+}
 </script>
 
 <style scoped>
